@@ -7,6 +7,7 @@
 	<body>
 		<script defer="defer" src="./components/Dropdown/Dropdown.js"></script>
 		<script defer="defer" src="./components/Tabs/Tabs.js"></script>
+		<script defer="defer" src="./components/Carousel/Carousel.js"></script>
 		
 		<div class="header-container">
 			<div class="dropdown">
@@ -20,15 +21,65 @@
 			<img src="./lambda_logo_light_small.png" class="header" />
 		</div>
 
-		<div class="section">
-			<div class="box">
+		<div class="section photos">
+			<!-- <div class="box">
 				<div class="box-title">Box Title 1</div>
 				<div class="box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse platea dictumst.</div>
 			</div>
 			<div class="box">
 				<div class="box-title">Box Title 2</div>
 				<div class="box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse platea dictumst.</div>
+			</div> -->
+
+			<!-- ====== SLIDESHOW ======= -->
+			<!-- Slideshow container -->
+			<div class="slideshow-container">
+
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides">
+					<div class="numbertext">1 / 5</div>
+					<img src="./img/photo1.jpeg">
+					<div class="text">Learn to code!</div>
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">2 / 5</div>
+					<img src="./img/photo2.jpeg">
+					<div class="text">Bananas!!!!!</div>
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">3 / 5</div>
+					<img src="./img/photo3.jpeg">
+					<div class="text">People!</div>
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">4 / 5</div>
+					<img src="./img/photo4.jpeg">
+					<div class="text">#lunch!</div>
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">5 / 5</div>
+					<img src="./img/photo5.jpeg">
+					<div class="text">Revolutionary New School!</div>
+				</div>
+		
+				<!-- Next and previous buttons -->
+				<a class="prev">&#10094;</a>
+				<a class="next">&#10095;</a>
 			</div>
+			<br>
+			
+			<!-- The dots/circles -->
+			<div class="dots">
+				<span class="dot" data-dot="1"></span> 
+				<span class="dot" data-dot="2"></span> 
+				<span class="dot" data-dot="3"></span>
+				<span class="dot" data-dot="4"></span>
+				<span class="dot" data-dot="5"></span> 
+			</div> <!-- ==== SLIDESHOW ENDS!!!!! ==== -->
+
 		</div>
 
 		<div class="section">
@@ -38,6 +89,9 @@
 						<div class="tabs-link" data-tab="2">Tab 2</div>
 						<div class="tabs-link" data-tab="3">Tab 3</div>
 						<div class="tabs-link" data-tab="4">Tab 4</div>
+						<div class="tabs-link" data-tab="5">Tab 5</div>
+						<div class="tabs-link" data-tab="6">Tab 6</div>
+						<div class="tabs-link" data-tab="7">Tab 7</div>
 					</div>
 					<div class="tabs-items">
 						<div class="tabs-item tabs-item-selected" data-tab="1">
@@ -70,6 +124,24 @@
 								There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will
 								instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states
 								that this has already happened.
+							</div>
+						</div>
+						<div class="tabs-item" data-tab="5">
+							<div class="tabs-item-title">Quote 5</div>
+							<div class="tabs-item-description">
+								It's a super day, so why not make a beautiful sky? Everybody needs a friend. The only prerequisite is that it makes you happy. If it makes you happy then it's good. Look at them little rascals. It takes dark in order to show light.
+							</div>
+						</div>
+						<div class="tabs-item" data-tab="6">
+							<div class="tabs-item-title">Quote 6</div>
+							<div class="tabs-item-description">
+								You need to have a very firm paint to do this. Imagination is the key to painting. Put light against light - you have nothing. Put dark against dark - you have nothing. It's the contrast of light and dark that each give the other one meaning. Maybe there's a happy little waterfall happening over here.
+							</div>
+						</div>
+						<div class="tabs-item" data-tab="7">
+							<div class="tabs-item-title">Quote 7</div>
+							<div class="tabs-item-description">
+								Maybe he has a little friend that lives right over here. If you do too much it's going to lose its effectiveness. There he comes. Just go out and talk to a tree. Make friends with it. We want to use a lot pressure while using no pressure at all. There's nothing wrong with having a tree as a friend.
 							</div>
 						</div>
 					</div>

@@ -90,6 +90,90 @@
 .tabs .tabs-link-selected:hover {
   background-color: #ffffff;
 }
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  /* Hide the images by default */
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+}
+.slideshow-container .mySlides {
+  display: none;
+  /* Number text (1/4 etc) */
+  /* Images */
+  /* Caption text */
+}
+.slideshow-container .mySlides .numbertext {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.slideshow-container .mySlides img {
+  width: 100%;
+}
+.slideshow-container .mySlides .text {
+  color: #931d25;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.slideshow-container .prev,
+.slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  /* On hover, add a black background color with a little bit see-through */
+}
+.slideshow-container .prev:hover,
+.slideshow-container .next:hover,
+.slideshow-container .prev:hover,
+.slideshow-container .next:hover {
+  background-color: rgba(147, 29, 37, 0.8);
+}
+.slideshow-container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* The dots/bullets/indicators */
+.dots {
+  margin: 5px;
+  text-align: center;
+}
+.dots .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #931d25;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dots .active,
+.dots .dot:hover {
+  background-color: rgba(190, 45, 55, 0.8);
+}
 body {
   box-sizing: border-box;
   min-width: 300px;
